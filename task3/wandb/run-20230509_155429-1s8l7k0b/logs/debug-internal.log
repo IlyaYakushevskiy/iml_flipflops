@@ -1,0 +1,260 @@
+2023-05-09 15:54:29,076 INFO    StreamThr :30739 [internal.py:wandb_internal():86] W&B internal server running at pid: 30739, started at: 2023-05-09 15:54:29.075941
+2023-05-09 15:54:29,076 DEBUG   HandlerThread:30739 [handler.py:handle_request():144] handle_request: status
+2023-05-09 15:54:29,077 INFO    WriterThread:30739 [datastore.py:open_for_write():85] open: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_155429-1s8l7k0b/run-1s8l7k0b.wandb
+2023-05-09 15:54:29,078 DEBUG   SenderThread:30739 [sender.py:send():375] send: header
+2023-05-09 15:54:29,092 DEBUG   SenderThread:30739 [sender.py:send():375] send: run
+2023-05-09 15:54:29,547 INFO    SenderThread:30739 [dir_watcher.py:__init__():219] watching files in: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_155429-1s8l7k0b/files
+2023-05-09 15:54:29,547 INFO    SenderThread:30739 [sender.py:_start_run_threads():1124] run started: 1s8l7k0b with start time 1683640469.075577
+2023-05-09 15:54:29,547 DEBUG   SenderThread:30739 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 15:54:29,547 INFO    SenderThread:30739 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 15:54:29,550 DEBUG   HandlerThread:30739 [handler.py:handle_request():144] handle_request: check_version
+2023-05-09 15:54:29,550 DEBUG   SenderThread:30739 [sender.py:send_request():402] send_request: check_version
+2023-05-09 15:54:29,656 DEBUG   HandlerThread:30739 [handler.py:handle_request():144] handle_request: run_start
+2023-05-09 15:54:29,668 DEBUG   HandlerThread:30739 [system_info.py:__init__():31] System info init
+2023-05-09 15:54:29,668 DEBUG   HandlerThread:30739 [system_info.py:__init__():46] System info init done
+2023-05-09 15:54:29,668 INFO    HandlerThread:30739 [system_monitor.py:start():181] Starting system monitor
+2023-05-09 15:54:29,668 INFO    SystemMonitor:30739 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-05-09 15:54:29,669 INFO    HandlerThread:30739 [system_monitor.py:probe():201] Collecting system info
+2023-05-09 15:54:29,669 INFO    SystemMonitor:30739 [interfaces.py:start():190] Started cpu monitoring
+2023-05-09 15:54:29,670 DEBUG   HandlerThread:30739 [system_info.py:probe():195] Probing system
+2023-05-09 15:54:29,670 INFO    SystemMonitor:30739 [interfaces.py:start():190] Started disk monitoring
+2023-05-09 15:54:29,670 INFO    SystemMonitor:30739 [interfaces.py:start():190] Started gpuapple monitoring
+2023-05-09 15:54:29,673 INFO    SystemMonitor:30739 [interfaces.py:start():190] Started memory monitoring
+2023-05-09 15:54:29,675 INFO    SystemMonitor:30739 [interfaces.py:start():190] Started network monitoring
+2023-05-09 15:54:29,681 DEBUG   HandlerThread:30739 [system_info.py:_probe_git():180] Probing git
+2023-05-09 15:54:29,706 DEBUG   HandlerThread:30739 [system_info.py:_probe_git():188] Probing git done
+2023-05-09 15:54:29,706 DEBUG   HandlerThread:30739 [system_info.py:probe():240] Probing system done
+2023-05-09 15:54:29,706 DEBUG   HandlerThread:30739 [system_monitor.py:probe():210] {'os': 'macOS-13.3.1-arm64-arm-64bit', 'python': '3.10.10', 'heartbeatAt': '2023-05-09T13:54:29.670197', 'startedAt': '2023-05-09T13:54:29.069084', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/Users/ilya/Desktop/iml_flipflops/task3/sol_Lauriane.py', 'codePath': 'task3/sol_Lauriane.py', 'git': {'remote': 'https://github.com/IlyaYakushevskiy/iml_flipflops', 'commit': 'b54e5d5cc126f8ba2701bc9f4bbf8169a878d240'}, 'email': 'ilyayakushevskiy3@gmail.com', 'root': '/Users/ilya/Desktop/iml_flipflops', 'host': 'student-net-etx-2055.intern.ethz.ch', 'username': 'ilya', 'executable': '/opt/homebrew/Caskroom/miniforge/base/envs/ml_cv/bin/python', 'cpu_count': 10, 'cpu_count_logical': 10, 'disk': {'total': 460.4317207336426, 'used': 8.45181655883789}, 'gpuapple': {'type': 'arm', 'vendor': 'Apple'}, 'memory': {'total': 16.0}}
+2023-05-09 15:54:29,706 INFO    HandlerThread:30739 [system_monitor.py:probe():211] Finished collecting system info
+2023-05-09 15:54:29,706 INFO    HandlerThread:30739 [system_monitor.py:probe():214] Publishing system info
+2023-05-09 15:54:29,706 DEBUG   HandlerThread:30739 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-05-09 15:54:29,707 DEBUG   HandlerThread:30739 [system_info.py:_save_pip():67] Saving pip packages done
+2023-05-09 15:54:29,707 DEBUG   HandlerThread:30739 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-05-09 15:54:30,553 INFO    Thread-12 :30739 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_155429-1s8l7k0b/files/conda-environment.yaml
+2023-05-09 15:54:30,553 INFO    Thread-12 :30739 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_155429-1s8l7k0b/files/wandb-summary.json
+2023-05-09 15:54:30,553 INFO    Thread-12 :30739 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_155429-1s8l7k0b/files/requirements.txt
+2023-05-09 15:54:30,702 DEBUG   HandlerThread:30739 [system_info.py:_save_conda():86] Saving conda packages done
+2023-05-09 15:54:30,703 INFO    HandlerThread:30739 [system_monitor.py:probe():216] Finished publishing system info
+2023-05-09 15:54:30,704 DEBUG   SenderThread:30739 [sender.py:send():375] send: files
+2023-05-09 15:54:30,705 INFO    SenderThread:30739 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2023-05-09 15:54:30,708 DEBUG   HandlerThread:30739 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-09 15:54:30,708 DEBUG   SenderThread:30739 [sender.py:send_request():402] send_request: stop_status
+2023-05-09 15:54:30,876 DEBUG   SenderThread:30739 [sender.py:send():375] send: telemetry
+2023-05-09 15:54:30,876 DEBUG   SenderThread:30739 [sender.py:send():375] send: telemetry
+2023-05-09 15:54:30,876 DEBUG   SenderThread:30739 [sender.py:send():375] send: config
+2023-05-09 15:54:30,876 DEBUG   SenderThread:30739 [sender.py:send():375] send: config
+2023-05-09 15:54:30,876 DEBUG   SenderThread:30739 [sender.py:send():375] send: config
+2023-05-09 15:54:30,876 DEBUG   SenderThread:30739 [sender.py:send():375] send: config
+2023-05-09 15:54:31,203 INFO    wandb-upload_0:30739 [upload_job.py:push():137] Uploaded file /var/folders/tr/dw6tlx9j7hl8mjvby8t50bgh0000gn/T/tmpd30rb9vtwandb/5s8pimwp-wandb-metadata.json
+2023-05-09 15:54:31,557 INFO    Thread-12 :30739 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_155429-1s8l7k0b/files/conda-environment.yaml
+2023-05-09 15:54:31,557 INFO    Thread-12 :30739 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_155429-1s8l7k0b/files/wandb-metadata.json
+2023-05-09 15:54:34,894 DEBUG   HandlerThread:30739 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 15:54:38,413 DEBUG   HandlerThread:30739 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 15:54:38,414 DEBUG   SenderThread:30739 [sender.py:send():375] send: history
+2023-05-09 15:54:38,414 DEBUG   SenderThread:30739 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 15:54:38,416 INFO    SenderThread:30739 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 15:54:38,601 INFO    Thread-12 :30739 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_155429-1s8l7k0b/files/wandb-summary.json
+2023-05-09 15:54:38,602 INFO    Thread-12 :30739 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_155429-1s8l7k0b/files/output.log
+2023-05-09 15:54:40,424 DEBUG   HandlerThread:30739 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 15:54:40,612 INFO    Thread-12 :30739 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_155429-1s8l7k0b/files/output.log
+2023-05-09 15:54:41,013 DEBUG   HandlerThread:30739 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 15:54:41,014 DEBUG   SenderThread:30739 [sender.py:send():375] send: history
+2023-05-09 15:54:41,014 DEBUG   SenderThread:30739 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 15:54:41,014 INFO    SenderThread:30739 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 15:54:41,618 INFO    Thread-12 :30739 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_155429-1s8l7k0b/files/wandb-summary.json
+2023-05-09 15:54:42,620 INFO    Thread-12 :30739 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_155429-1s8l7k0b/files/output.log
+2023-05-09 15:54:43,643 DEBUG   HandlerThread:30739 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 15:54:43,644 DEBUG   SenderThread:30739 [sender.py:send():375] send: history
+2023-05-09 15:54:43,644 DEBUG   SenderThread:30739 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 15:54:43,644 INFO    SenderThread:30739 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 15:54:44,630 INFO    Thread-12 :30739 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_155429-1s8l7k0b/files/wandb-summary.json
+2023-05-09 15:54:44,630 INFO    Thread-12 :30739 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_155429-1s8l7k0b/files/output.log
+2023-05-09 15:54:45,654 DEBUG   HandlerThread:30739 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 15:54:45,712 DEBUG   HandlerThread:30739 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-09 15:54:45,713 DEBUG   SenderThread:30739 [sender.py:send_request():402] send_request: stop_status
+2023-05-09 15:54:46,243 DEBUG   HandlerThread:30739 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 15:54:46,244 DEBUG   SenderThread:30739 [sender.py:send():375] send: history
+2023-05-09 15:54:46,244 DEBUG   SenderThread:30739 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 15:54:46,244 INFO    SenderThread:30739 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 15:54:46,640 INFO    Thread-12 :30739 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_155429-1s8l7k0b/files/wandb-summary.json
+2023-05-09 15:54:48,651 INFO    Thread-12 :30739 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_155429-1s8l7k0b/files/output.log
+2023-05-09 15:54:48,920 DEBUG   HandlerThread:30739 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 15:54:48,921 DEBUG   SenderThread:30739 [sender.py:send():375] send: history
+2023-05-09 15:54:48,921 DEBUG   SenderThread:30739 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 15:54:48,921 INFO    SenderThread:30739 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 15:54:49,656 INFO    Thread-12 :30739 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_155429-1s8l7k0b/files/wandb-summary.json
+2023-05-09 15:54:50,662 INFO    Thread-12 :30739 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_155429-1s8l7k0b/files/output.log
+2023-05-09 15:54:50,932 DEBUG   HandlerThread:30739 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 15:54:51,545 DEBUG   HandlerThread:30739 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 15:54:51,545 DEBUG   SenderThread:30739 [sender.py:send():375] send: history
+2023-05-09 15:54:51,545 DEBUG   SenderThread:30739 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 15:54:51,545 INFO    SenderThread:30739 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 15:54:51,667 INFO    Thread-12 :30739 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_155429-1s8l7k0b/files/wandb-summary.json
+2023-05-09 15:54:52,672 INFO    Thread-12 :30739 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_155429-1s8l7k0b/files/output.log
+2023-05-09 15:54:54,123 DEBUG   HandlerThread:30739 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 15:54:54,123 DEBUG   SenderThread:30739 [sender.py:send():375] send: history
+2023-05-09 15:54:54,124 DEBUG   SenderThread:30739 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 15:54:54,124 INFO    SenderThread:30739 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 15:54:54,683 INFO    Thread-12 :30739 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_155429-1s8l7k0b/files/wandb-summary.json
+2023-05-09 15:54:56,133 DEBUG   HandlerThread:30739 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 15:54:56,694 INFO    Thread-12 :30739 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_155429-1s8l7k0b/files/output.log
+2023-05-09 15:54:56,714 DEBUG   HandlerThread:30739 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 15:54:56,715 DEBUG   SenderThread:30739 [sender.py:send():375] send: history
+2023-05-09 15:54:56,715 DEBUG   SenderThread:30739 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 15:54:56,715 INFO    SenderThread:30739 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 15:54:57,699 INFO    Thread-12 :30739 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_155429-1s8l7k0b/files/wandb-summary.json
+2023-05-09 15:54:58,704 INFO    Thread-12 :30739 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_155429-1s8l7k0b/files/output.log
+2023-05-09 15:54:59,272 DEBUG   HandlerThread:30739 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 15:54:59,272 DEBUG   SenderThread:30739 [sender.py:send():375] send: history
+2023-05-09 15:54:59,272 DEBUG   SenderThread:30739 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 15:54:59,273 INFO    SenderThread:30739 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 15:54:59,710 INFO    Thread-12 :30739 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_155429-1s8l7k0b/files/wandb-summary.json
+2023-05-09 15:55:00,715 INFO    Thread-12 :30739 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_155429-1s8l7k0b/files/output.log
+2023-05-09 15:55:00,717 DEBUG   HandlerThread:30739 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-09 15:55:00,717 DEBUG   SenderThread:30739 [sender.py:send_request():402] send_request: stop_status
+2023-05-09 15:55:01,874 DEBUG   HandlerThread:30739 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 15:55:01,906 DEBUG   HandlerThread:30739 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 15:55:02,074 DEBUG   SenderThread:30739 [sender.py:send():375] send: history
+2023-05-09 15:55:02,074 DEBUG   SenderThread:30739 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 15:55:02,075 INFO    SenderThread:30739 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 15:55:02,726 INFO    Thread-12 :30739 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_155429-1s8l7k0b/files/wandb-summary.json
+2023-05-09 15:55:02,726 INFO    Thread-12 :30739 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_155429-1s8l7k0b/files/config.yaml
+2023-05-09 15:55:02,726 INFO    Thread-12 :30739 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_155429-1s8l7k0b/files/output.log
+2023-05-09 15:55:05,227 DEBUG   SenderThread:30739 [sender.py:send():375] send: exit
+2023-05-09 15:55:05,228 INFO    SenderThread:30739 [sender.py:send_exit():598] handling exit code: 0
+2023-05-09 15:55:05,228 INFO    SenderThread:30739 [sender.py:send_exit():600] handling runtime: 35
+2023-05-09 15:55:05,229 INFO    SenderThread:30739 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 15:55:05,229 INFO    SenderThread:30739 [sender.py:send_exit():606] send defer
+2023-05-09 15:55:05,229 DEBUG   HandlerThread:30739 [handler.py:handle_request():144] handle_request: defer
+2023-05-09 15:55:05,229 INFO    HandlerThread:30739 [handler.py:handle_request_defer():170] handle defer: 0
+2023-05-09 15:55:05,229 DEBUG   SenderThread:30739 [sender.py:send_request():402] send_request: defer
+2023-05-09 15:55:05,229 INFO    SenderThread:30739 [sender.py:send_request_defer():622] handle sender defer: 0
+2023-05-09 15:55:05,229 INFO    SenderThread:30739 [sender.py:transition_state():626] send defer: 1
+2023-05-09 15:55:05,229 DEBUG   HandlerThread:30739 [handler.py:handle_request():144] handle_request: defer
+2023-05-09 15:55:05,230 INFO    HandlerThread:30739 [handler.py:handle_request_defer():170] handle defer: 1
+2023-05-09 15:55:05,230 DEBUG   SenderThread:30739 [sender.py:send_request():402] send_request: defer
+2023-05-09 15:55:05,230 INFO    SenderThread:30739 [sender.py:send_request_defer():622] handle sender defer: 1
+2023-05-09 15:55:05,230 INFO    SenderThread:30739 [sender.py:transition_state():626] send defer: 2
+2023-05-09 15:55:05,230 DEBUG   HandlerThread:30739 [handler.py:handle_request():144] handle_request: defer
+2023-05-09 15:55:05,230 INFO    HandlerThread:30739 [handler.py:handle_request_defer():170] handle defer: 2
+2023-05-09 15:55:05,230 INFO    HandlerThread:30739 [system_monitor.py:finish():190] Stopping system monitor
+2023-05-09 15:55:05,230 DEBUG   SystemMonitor:30739 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-05-09 15:55:05,230 INFO    HandlerThread:30739 [interfaces.py:finish():202] Joined cpu monitor
+2023-05-09 15:55:05,230 DEBUG   SystemMonitor:30739 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-05-09 15:55:05,230 INFO    HandlerThread:30739 [interfaces.py:finish():202] Joined disk monitor
+2023-05-09 15:55:05,230 DEBUG   SystemMonitor:30739 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-05-09 15:55:05,230 INFO    HandlerThread:30739 [interfaces.py:finish():202] Joined gpuapple monitor
+2023-05-09 15:55:05,231 INFO    HandlerThread:30739 [interfaces.py:finish():202] Joined memory monitor
+2023-05-09 15:55:05,231 INFO    HandlerThread:30739 [interfaces.py:finish():202] Joined network monitor
+2023-05-09 15:55:05,231 DEBUG   SenderThread:30739 [sender.py:send_request():402] send_request: defer
+2023-05-09 15:55:05,231 INFO    SenderThread:30739 [sender.py:send_request_defer():622] handle sender defer: 2
+2023-05-09 15:55:05,231 INFO    SenderThread:30739 [sender.py:transition_state():626] send defer: 3
+2023-05-09 15:55:05,232 DEBUG   SenderThread:30739 [sender.py:send():375] send: telemetry
+2023-05-09 15:55:05,232 DEBUG   HandlerThread:30739 [handler.py:handle_request():144] handle_request: defer
+2023-05-09 15:55:05,232 DEBUG   SenderThread:30739 [sender.py:send():375] send: stats
+2023-05-09 15:55:05,232 INFO    HandlerThread:30739 [handler.py:handle_request_defer():170] handle defer: 3
+2023-05-09 15:55:05,232 DEBUG   SenderThread:30739 [sender.py:send_request():402] send_request: defer
+2023-05-09 15:55:05,232 INFO    SenderThread:30739 [sender.py:send_request_defer():622] handle sender defer: 3
+2023-05-09 15:55:05,232 INFO    SenderThread:30739 [sender.py:transition_state():626] send defer: 4
+2023-05-09 15:55:05,232 DEBUG   HandlerThread:30739 [handler.py:handle_request():144] handle_request: defer
+2023-05-09 15:55:05,232 INFO    HandlerThread:30739 [handler.py:handle_request_defer():170] handle defer: 4
+2023-05-09 15:55:05,232 DEBUG   SenderThread:30739 [sender.py:send_request():402] send_request: defer
+2023-05-09 15:55:05,232 INFO    SenderThread:30739 [sender.py:send_request_defer():622] handle sender defer: 4
+2023-05-09 15:55:05,232 INFO    SenderThread:30739 [sender.py:transition_state():626] send defer: 5
+2023-05-09 15:55:05,232 DEBUG   HandlerThread:30739 [handler.py:handle_request():144] handle_request: defer
+2023-05-09 15:55:05,232 INFO    HandlerThread:30739 [handler.py:handle_request_defer():170] handle defer: 5
+2023-05-09 15:55:05,232 DEBUG   SenderThread:30739 [sender.py:send():375] send: summary
+2023-05-09 15:55:05,232 INFO    SenderThread:30739 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 15:55:05,232 DEBUG   SenderThread:30739 [sender.py:send_request():402] send_request: defer
+2023-05-09 15:55:05,233 INFO    SenderThread:30739 [sender.py:send_request_defer():622] handle sender defer: 5
+2023-05-09 15:55:05,233 INFO    SenderThread:30739 [sender.py:transition_state():626] send defer: 6
+2023-05-09 15:55:05,233 DEBUG   HandlerThread:30739 [handler.py:handle_request():144] handle_request: defer
+2023-05-09 15:55:05,233 INFO    HandlerThread:30739 [handler.py:handle_request_defer():170] handle defer: 6
+2023-05-09 15:55:05,233 DEBUG   SenderThread:30739 [sender.py:send_request():402] send_request: defer
+2023-05-09 15:55:05,233 INFO    SenderThread:30739 [sender.py:send_request_defer():622] handle sender defer: 6
+2023-05-09 15:55:05,235 DEBUG   HandlerThread:30739 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 15:55:05,741 INFO    Thread-12 :30739 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_155429-1s8l7k0b/files/wandb-summary.json
+2023-05-09 15:55:05,769 INFO    SenderThread:30739 [sender.py:transition_state():626] send defer: 7
+2023-05-09 15:55:05,769 DEBUG   HandlerThread:30739 [handler.py:handle_request():144] handle_request: defer
+2023-05-09 15:55:05,769 INFO    HandlerThread:30739 [handler.py:handle_request_defer():170] handle defer: 7
+2023-05-09 15:55:05,770 DEBUG   SenderThread:30739 [sender.py:send_request():402] send_request: defer
+2023-05-09 15:55:05,770 INFO    SenderThread:30739 [sender.py:send_request_defer():622] handle sender defer: 7
+2023-05-09 15:55:06,232 DEBUG   HandlerThread:30739 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-09 15:55:06,500 INFO    SenderThread:30739 [sender.py:transition_state():626] send defer: 8
+2023-05-09 15:55:06,501 DEBUG   SenderThread:30739 [sender.py:send_request():402] send_request: poll_exit
+2023-05-09 15:55:06,501 DEBUG   HandlerThread:30739 [handler.py:handle_request():144] handle_request: defer
+2023-05-09 15:55:06,501 INFO    HandlerThread:30739 [handler.py:handle_request_defer():170] handle defer: 8
+2023-05-09 15:55:06,502 DEBUG   SenderThread:30739 [sender.py:send_request():402] send_request: defer
+2023-05-09 15:55:06,502 INFO    SenderThread:30739 [sender.py:send_request_defer():622] handle sender defer: 8
+2023-05-09 15:55:06,509 INFO    SenderThread:30739 [sender.py:transition_state():626] send defer: 9
+2023-05-09 15:55:06,509 DEBUG   HandlerThread:30739 [handler.py:handle_request():144] handle_request: defer
+2023-05-09 15:55:06,509 INFO    HandlerThread:30739 [handler.py:handle_request_defer():170] handle defer: 9
+2023-05-09 15:55:06,510 DEBUG   SenderThread:30739 [sender.py:send():375] send: artifact
+2023-05-09 15:55:06,746 INFO    Thread-12 :30739 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_155429-1s8l7k0b/files/config.yaml
+2023-05-09 15:55:06,746 INFO    Thread-12 :30739 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_155429-1s8l7k0b/files/output.log
+2023-05-09 15:55:07,242 DEBUG   HandlerThread:30739 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-09 15:55:07,537 INFO    SenderThread:30739 [sender.py:send_artifact():1474] sent artifact job-https___github.com_IlyaYakushevskiy_iml_flipflops_task3_sol_Lauriane.py - {'id': 'QXJ0aWZhY3Q6NDQ4MDg0OTQ4', 'digest': '06f36154a907e3480defb0a8cc21f32a', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'job-https___github.com_IlyaYakushevskiy_iml_flipflops_task3_sol_Lauriane.py', 'alias': 'latest'}, {'artifactCollectionName': 'job-https___github.com_IlyaYakushevskiy_iml_flipflops_task3_sol_Lauriane.py', 'alias': 'v2'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjY3OTAxNjYz', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NDQ4MDg0OTQ4', 'versionIndex': 2}}, 'version': 'v2'}
+2023-05-09 15:55:07,538 DEBUG   SenderThread:30739 [sender.py:send_request():402] send_request: defer
+2023-05-09 15:55:07,538 INFO    SenderThread:30739 [sender.py:send_request_defer():622] handle sender defer: 9
+2023-05-09 15:55:07,538 INFO    SenderThread:30739 [dir_watcher.py:finish():365] shutting down directory watcher
+2023-05-09 15:55:07,752 INFO    SenderThread:30739 [dir_watcher.py:finish():395] scan: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_155429-1s8l7k0b/files
+2023-05-09 15:55:07,753 INFO    SenderThread:30739 [dir_watcher.py:finish():409] scan save: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_155429-1s8l7k0b/files/requirements.txt requirements.txt
+2023-05-09 15:55:07,754 INFO    SenderThread:30739 [dir_watcher.py:finish():409] scan save: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_155429-1s8l7k0b/files/output.log output.log
+2023-05-09 15:55:07,755 INFO    SenderThread:30739 [dir_watcher.py:finish():409] scan save: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_155429-1s8l7k0b/files/config.yaml config.yaml
+2023-05-09 15:55:07,755 INFO    SenderThread:30739 [dir_watcher.py:finish():409] scan save: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_155429-1s8l7k0b/files/wandb-summary.json wandb-summary.json
+2023-05-09 15:55:07,755 INFO    SenderThread:30739 [dir_watcher.py:finish():409] scan save: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_155429-1s8l7k0b/files/conda-environment.yaml conda-environment.yaml
+2023-05-09 15:55:07,755 INFO    SenderThread:30739 [dir_watcher.py:finish():409] scan save: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_155429-1s8l7k0b/files/wandb-metadata.json wandb-metadata.json
+2023-05-09 15:55:07,755 INFO    SenderThread:30739 [sender.py:transition_state():626] send defer: 10
+2023-05-09 15:55:07,756 DEBUG   SenderThread:30739 [sender.py:send_request():402] send_request: poll_exit
+2023-05-09 15:55:07,756 DEBUG   HandlerThread:30739 [handler.py:handle_request():144] handle_request: defer
+2023-05-09 15:55:07,756 INFO    HandlerThread:30739 [handler.py:handle_request_defer():170] handle defer: 10
+2023-05-09 15:55:07,762 DEBUG   SenderThread:30739 [sender.py:send_request():402] send_request: defer
+2023-05-09 15:55:07,764 INFO    SenderThread:30739 [sender.py:send_request_defer():622] handle sender defer: 10
+2023-05-09 15:55:07,766 INFO    SenderThread:30739 [file_pusher.py:finish():167] shutting down file pusher
+2023-05-09 15:55:08,245 DEBUG   HandlerThread:30739 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-09 15:55:08,246 DEBUG   SenderThread:30739 [sender.py:send_request():402] send_request: poll_exit
+2023-05-09 15:55:08,276 INFO    wandb-upload_1:30739 [upload_job.py:push():137] Uploaded file /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_155429-1s8l7k0b/files/output.log
+2023-05-09 15:55:08,301 INFO    wandb-upload_4:30739 [upload_job.py:push():137] Uploaded file /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_155429-1s8l7k0b/files/conda-environment.yaml
+2023-05-09 15:55:08,317 INFO    wandb-upload_0:30739 [upload_job.py:push():137] Uploaded file /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_155429-1s8l7k0b/files/requirements.txt
+2023-05-09 15:55:08,333 INFO    wandb-upload_2:30739 [upload_job.py:push():137] Uploaded file /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_155429-1s8l7k0b/files/config.yaml
+2023-05-09 15:55:08,346 INFO    wandb-upload_3:30739 [upload_job.py:push():137] Uploaded file /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_155429-1s8l7k0b/files/wandb-summary.json
+2023-05-09 15:55:08,547 INFO    Thread-11 (_thread_body):30739 [sender.py:transition_state():626] send defer: 11
+2023-05-09 15:55:08,548 DEBUG   HandlerThread:30739 [handler.py:handle_request():144] handle_request: defer
+2023-05-09 15:55:08,549 INFO    HandlerThread:30739 [handler.py:handle_request_defer():170] handle defer: 11
+2023-05-09 15:55:08,549 DEBUG   SenderThread:30739 [sender.py:send_request():402] send_request: defer
+2023-05-09 15:55:08,549 INFO    SenderThread:30739 [sender.py:send_request_defer():622] handle sender defer: 11
+2023-05-09 15:55:08,549 INFO    SenderThread:30739 [file_pusher.py:join():172] waiting for file pusher
+2023-05-09 15:55:08,550 INFO    SenderThread:30739 [sender.py:transition_state():626] send defer: 12
+2023-05-09 15:55:08,550 DEBUG   HandlerThread:30739 [handler.py:handle_request():144] handle_request: defer
+2023-05-09 15:55:08,550 INFO    HandlerThread:30739 [handler.py:handle_request_defer():170] handle defer: 12
+2023-05-09 15:55:08,550 DEBUG   SenderThread:30739 [sender.py:send_request():402] send_request: defer
+2023-05-09 15:55:08,550 INFO    SenderThread:30739 [sender.py:send_request_defer():622] handle sender defer: 12
+2023-05-09 15:55:09,108 INFO    SenderThread:30739 [sender.py:transition_state():626] send defer: 13
+2023-05-09 15:55:09,109 DEBUG   HandlerThread:30739 [handler.py:handle_request():144] handle_request: defer
+2023-05-09 15:55:09,110 INFO    HandlerThread:30739 [handler.py:handle_request_defer():170] handle defer: 13
+2023-05-09 15:55:09,110 DEBUG   SenderThread:30739 [sender.py:send_request():402] send_request: defer
+2023-05-09 15:55:09,110 INFO    SenderThread:30739 [sender.py:send_request_defer():622] handle sender defer: 13
+2023-05-09 15:55:09,111 INFO    SenderThread:30739 [sender.py:transition_state():626] send defer: 14
+2023-05-09 15:55:09,111 DEBUG   HandlerThread:30739 [handler.py:handle_request():144] handle_request: defer
+2023-05-09 15:55:09,111 INFO    HandlerThread:30739 [handler.py:handle_request_defer():170] handle defer: 14
+2023-05-09 15:55:09,111 DEBUG   SenderThread:30739 [sender.py:send():375] send: final
+2023-05-09 15:55:09,112 DEBUG   SenderThread:30739 [sender.py:send():375] send: footer
+2023-05-09 15:55:09,112 DEBUG   SenderThread:30739 [sender.py:send_request():402] send_request: defer
+2023-05-09 15:55:09,112 INFO    SenderThread:30739 [sender.py:send_request_defer():622] handle sender defer: 14
+2023-05-09 15:55:09,113 DEBUG   HandlerThread:30739 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-09 15:55:09,114 DEBUG   HandlerThread:30739 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-09 15:55:09,114 DEBUG   HandlerThread:30739 [handler.py:handle_request():144] handle_request: server_info
+2023-05-09 15:55:09,114 DEBUG   HandlerThread:30739 [handler.py:handle_request():144] handle_request: get_summary
+2023-05-09 15:55:09,114 DEBUG   HandlerThread:30739 [handler.py:handle_request():144] handle_request: sampled_history
+2023-05-09 15:55:09,115 DEBUG   SenderThread:30739 [sender.py:send_request():402] send_request: poll_exit
+2023-05-09 15:55:09,115 DEBUG   SenderThread:30739 [sender.py:send_request():402] send_request: poll_exit
+2023-05-09 15:55:09,115 DEBUG   SenderThread:30739 [sender.py:send_request():402] send_request: server_info
+2023-05-09 15:55:09,302 INFO    MainThread:30739 [wandb_run.py:_footer_history_summary_info():3469] rendering history
+2023-05-09 15:55:09,303 INFO    MainThread:30739 [wandb_run.py:_footer_history_summary_info():3501] rendering summary
+2023-05-09 15:55:09,303 INFO    MainThread:30739 [wandb_run.py:_footer_sync_info():3428] logging synced files
+2023-05-09 15:55:09,305 DEBUG   HandlerThread:30739 [handler.py:handle_request():144] handle_request: shutdown
+2023-05-09 15:55:09,305 INFO    HandlerThread:30739 [handler.py:finish():845] shutting down handler
+2023-05-09 15:55:10,120 INFO    WriterThread:30739 [datastore.py:close():298] close: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_155429-1s8l7k0b/run-1s8l7k0b.wandb
+2023-05-09 15:55:10,305 INFO    SenderThread:30739 [sender.py:finish():1550] shutting down sender
+2023-05-09 15:55:10,305 INFO    SenderThread:30739 [file_pusher.py:finish():167] shutting down file pusher
+2023-05-09 15:55:10,306 INFO    SenderThread:30739 [file_pusher.py:join():172] waiting for file pusher

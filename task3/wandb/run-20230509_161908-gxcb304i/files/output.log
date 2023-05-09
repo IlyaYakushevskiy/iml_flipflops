@@ -1,0 +1,104 @@
+
+Epoch 1: Training Loss: 0.6045, Validation Loss: 0.5919
+Epoch 2: Training Loss: 0.5533, Validation Loss: 0.5591
+Epoch 3: Training Loss: 0.6368, Validation Loss: 0.5521
+Epoch 4: Training Loss: 0.5849, Validation Loss: 0.5345
+Epoch 5: Training Loss: 0.6039, Validation Loss: 0.5522
+Epoch 6: Training Loss: 0.6500, Validation Loss: 0.5238
+Epoch 7: Training Loss: 0.5826, Validation Loss: 0.5113
+Epoch 8: Training Loss: 0.5760, Validation Loss: 0.5048
+Epoch 9: Training Loss: 0.6334, Validation Loss: 0.4962
+Epoch 10: Training Loss: 0.6223, Validation Loss: 0.5123
+Epoch 11: Training Loss: 0.5702, Validation Loss: 0.4915
+Epoch 12: Training Loss: 0.6102, Validation Loss: 0.5152
+Epoch 13: Training Loss: 0.5557, Validation Loss: 0.4873
+Epoch 14: Training Loss: 0.6016, Validation Loss: 0.5235
+Epoch 15: Training Loss: 0.6342, Validation Loss: 0.5132
+Epoch 16: Training Loss: 0.5571, Validation Loss: 0.4812
+Epoch 17: Training Loss: 0.5570, Validation Loss: 0.5063
+Epoch 18: Training Loss: 0.5474, Validation Loss: 0.4893
+Epoch 19: Training Loss: 0.5433, Validation Loss: 0.4916
+Epoch 20: Training Loss: 0.5489, Validation Loss: 0.4904
+Epoch 21: Training Loss: 0.5265, Validation Loss: 0.4712
+Epoch 22: Training Loss: 0.5502, Validation Loss: 0.5030
+Epoch 23: Training Loss: 0.5304, Validation Loss: 0.4998
+Epoch 24: Training Loss: 0.5341, Validation Loss: 0.4892
+Epoch 25: Training Loss: 0.5228, Validation Loss: 0.4891
+Epoch 26: Training Loss: 0.5467, Validation Loss: 0.4994
+Epoch 27: Training Loss: 0.5717, Validation Loss: 0.5197
+Epoch 28: Training Loss: 0.5363, Validation Loss: 0.5085
+Epoch 29: Training Loss: 0.5509, Validation Loss: 0.5154
+Epoch 30: Training Loss: 0.5584, Validation Loss: 0.4872
+Epoch 31: Training Loss: 0.4532, Validation Loss: 0.4806
+Epoch 32: Training Loss: 0.5378, Validation Loss: 0.5071
+Epoch 33: Training Loss: 0.6525, Validation Loss: 0.5495
+Epoch 34: Training Loss: 0.5244, Validation Loss: 0.5242
+Epoch 35: Training Loss: 0.5215, Validation Loss: 0.5108
+Epoch 36: Training Loss: 0.6344, Validation Loss: 0.5042
+Epoch 37: Training Loss: 0.6077, Validation Loss: 0.5280
+Epoch 38: Training Loss: 0.5089, Validation Loss: 0.5221
+Epoch 39: Training Loss: 0.5181, Validation Loss: 0.5239
+Epoch 40: Training Loss: 0.6621, Validation Loss: 0.5459
+Epoch 41: Training Loss: 0.5144, Validation Loss: 0.5070
+Epoch 42: Training Loss: 0.6009, Validation Loss: 0.5025
+Epoch 43: Training Loss: 0.6069, Validation Loss: 0.5272
+Epoch 44: Training Loss: 0.5742, Validation Loss: 0.5037
+Epoch 45: Training Loss: 0.6181, Validation Loss: 0.5284
+Epoch 46: Training Loss: 0.5660, Validation Loss: 0.5127
+Epoch 47: Training Loss: 0.5247, Validation Loss: 0.5398
+Epoch 48: Training Loss: 0.7443, Validation Loss: 0.5812
+Epoch 49: Training Loss: 0.5550, Validation Loss: 0.5281
+Epoch 50: Training Loss: 0.6660, Validation Loss: 0.5227
+Epoch 51: Training Loss: 0.6901, Validation Loss: 0.5605
+Epoch 52: Training Loss: 0.6265, Validation Loss: 0.5491
+Epoch 53: Training Loss: 0.5824, Validation Loss: 0.5463
+Epoch 54: Training Loss: 0.6074, Validation Loss: 0.5555
+Epoch 55: Training Loss: 0.5848, Validation Loss: 0.5474
+Epoch 56: Training Loss: 0.6789, Validation Loss: 0.6157
+Epoch 57: Training Loss: 0.5729, Validation Loss: 0.5762
+Epoch 58: Training Loss: 0.5822, Validation Loss: 0.5684
+Epoch 59: Training Loss: 0.7781, Validation Loss: 0.5945
+Epoch 60: Training Loss: 0.7803, Validation Loss: 0.6061
+Epoch 61: Training Loss: 0.7124, Validation Loss: 0.6090
+Epoch 62: Training Loss: 0.7316, Validation Loss: 0.6021
+Epoch 63: Training Loss: 0.6890, Validation Loss: 0.6002
+Epoch 64: Training Loss: 0.6000, Validation Loss: 0.5889
+Epoch 65: Training Loss: 0.6941, Validation Loss: 0.5831
+Epoch 66: Training Loss: 0.7718, Validation Loss: 0.6268
+Epoch 67: Training Loss: 0.6784, Validation Loss: 0.5783
+Epoch 68: Training Loss: 0.7481, Validation Loss: 0.6304
+Epoch 69: Training Loss: 0.7121, Validation Loss: 0.6169
+Epoch 70: Training Loss: 0.6983, Validation Loss: 0.6351
+Epoch 71: Training Loss: 0.6347, Validation Loss: 0.5754
+Epoch 72: Training Loss: 0.6992, Validation Loss: 0.6285
+Epoch 73: Training Loss: 0.8640, Validation Loss: 0.8049
+Epoch 74: Training Loss: 0.7356, Validation Loss: 0.6730
+Epoch 75: Training Loss: 0.5677, Validation Loss: 0.6281
+Epoch 76: Training Loss: 0.6661, Validation Loss: 0.6428
+Epoch 77: Training Loss: 0.7618, Validation Loss: 0.6451
+Epoch 78: Training Loss: 0.7557, Validation Loss: 0.6468
+Epoch 79: Training Loss: 0.7956, Validation Loss: 0.6371
+Epoch 80: Training Loss: 0.7455, Validation Loss: 0.6375
+Epoch 81: Training Loss: 0.7772, Validation Loss: 0.7007
+Traceback (most recent call last):
+  File "/Users/ilya/Desktop/iml_flipflops/task3/sol_Lauriane.py", line 274, in <module>
+    model = train_model(train_loader,n_epochs )
+  File "/Users/ilya/Desktop/iml_flipflops/task3/sol_Lauriane.py", line 183, in train_model
+    for X, y in train_loader:
+  File "/opt/homebrew/Caskroom/miniforge/base/envs/ml_cv/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 634, in __next__
+    data = self._next_data()
+  File "/opt/homebrew/Caskroom/miniforge/base/envs/ml_cv/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 678, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/opt/homebrew/Caskroom/miniforge/base/envs/ml_cv/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 54, in fetch
+    return self.collate_fn(data)
+  File "/opt/homebrew/Caskroom/miniforge/base/envs/ml_cv/lib/python3.10/site-packages/torch/utils/data/_utils/collate.py", line 264, in default_collate
+    return collate(batch, collate_fn_map=default_collate_fn_map)
+  File "/opt/homebrew/Caskroom/miniforge/base/envs/ml_cv/lib/python3.10/site-packages/torch/utils/data/_utils/collate.py", line 142, in collate
+    return [collate(samples, collate_fn_map=collate_fn_map) for samples in transposed]  # Backwards compatibility.
+  File "/opt/homebrew/Caskroom/miniforge/base/envs/ml_cv/lib/python3.10/site-packages/torch/utils/data/_utils/collate.py", line 142, in <listcomp>
+    return [collate(samples, collate_fn_map=collate_fn_map) for samples in transposed]  # Backwards compatibility.
+  File "/opt/homebrew/Caskroom/miniforge/base/envs/ml_cv/lib/python3.10/site-packages/torch/utils/data/_utils/collate.py", line 119, in collate
+    return collate_fn_map[elem_type](batch, collate_fn_map=collate_fn_map)
+  File "/opt/homebrew/Caskroom/miniforge/base/envs/ml_cv/lib/python3.10/site-packages/torch/utils/data/_utils/collate.py", line 162, in collate_tensor_fn
+    return torch.stack(batch, 0, out=out)
+KeyboardInterrupt

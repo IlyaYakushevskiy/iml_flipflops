@@ -13,7 +13,7 @@ import torchvision.datasets as datasets
 import torch.nn as nn
 import torch.nn.functional as F
 from torch.utils.data import random_split
-import wandb
+
 
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
@@ -78,8 +78,8 @@ def get_data(file, train=True):
     # generate training data from triplets
     train_dataset = datasets.ImageFolder(root="dataset/",
                                          transform=None)
-    filenames = [s[0].split('/')[-1].replace('.jpg', '') for s in train_dataset.samples]
-    embeddings = np.load('dataset/embeddings.npy')
+    filenames = [s[0].split('\\')[-1].replace('.jpg', '') for s in train_dataset.samples]
+    embeddings = np.load('./dataset/embeddings.npy')
 
     # TODO: Normalize the embeddings across the dataset
     embeddings = embeddings / np.linalg.norm(embeddings, axis=1, keepdims=True)
@@ -128,8 +128,16 @@ def create_loader_from_np(X, y = None, train = True, batch_size=64, shuffle=True
 
 # TODO: define a model. Here, the basic structure is defined, but you need to fill in the details
 class Net(nn.Module):
+    """
+    The model class, which defines our classifier.
+    """
+
     def __init__(self):
+        """
+        The constructor of the model.
+        """
         super().__init__()
+        #self.fc = nn.Linear(3000, 1)
         self.fc1 = nn.Linear(3*2048, 100)
         self.fc2 = nn.Linear(100, 20)
         self.fc3 = nn.Linear(20, 20)
@@ -137,15 +145,26 @@ class Net(nn.Module):
         self.out = nn.Linear(20, 1)
 
     def forward(self, x):
+        """
+        The forward pass of the model.
 
-        x = F.relu(self.fc1(x))
-        x = F.relu(self.fc2(x))
-        x = F.relu(self.fc3(x))
-        x = F.relu(self.fc4(x))
+        input: x: torch.Tensor, the input to the model
+
+        output: x: torch.Tensor, the output of the model
+        """
+        # x = self.fc(x)
+        # x = F.relu(x)
+
+        # x = F.relu(self.fc1(x))
+        # x = F.relu(self.fc2(x))
+        x = F.sigmoid(self.fc1(x))
+        x = F.sigmoid(self.fc2(x))
+        x = F.sigmoid(self.fc3(x))
+        x = F.sigmoid(self.fc4(x))
         x = self.out(x)
         return x
 
-def train_model(train_loader, n_epochs):
+def train_model(train_loader):
     """
     The training procedure of the model; it accepts the training data, defines the model
     and then trains it.
@@ -157,7 +176,7 @@ def train_model(train_loader, n_epochs):
     model = Net()
     model.train()
     model.to(device)
-    n_epochs = n_epochs
+    n_epochs = 100
     
     # TODO: define a loss function, optimizer and proceed with training. Hint: use the part 
     # of the training data as a validation split. After each epoch, compute the loss on the 
@@ -166,7 +185,7 @@ def train_model(train_loader, n_epochs):
     # best model, train it on the whole training data.
 
     # Split the data into training and validation sets
-    train_size = int(0.8 * len(train_loader.dataset))
+    train_size = int(0.9 * len(train_loader.dataset))
     valid_size = len(train_loader.dataset) - train_size
     train_dataset, valid_dataset = random_split(train_loader.dataset, [train_size, valid_size])
 
@@ -175,7 +194,7 @@ def train_model(train_loader, n_epochs):
 
     # loss_function = nn.CrossEntropyLoss()
     loss_function = nn.BCEWithLogitsLoss()
-    optimizer = torch.optim.Adam(model.parameters(), lr=0.001)
+    optimizer = torch.optim.Adam(model.parameters(), lr=0.01)
     min_valid_loss = np.inf
 
     for epoch in range(n_epochs):
@@ -201,7 +220,7 @@ def train_model(train_loader, n_epochs):
 
         valid_loss /= len(valid_loader)
         print(f"Epoch {epoch+1}: Training Loss: {loss:.4f}, Validation Loss: {valid_loss:.4f}")
-        wandb.log({'Epoch': epoch, 'Train Loss': loss, 'Validation Loss': valid_loss})
+
         if valid_loss < min_valid_loss:
             min_valid_loss = valid_loss
             torch.save(model.state_dict(), "best_model.pth")
@@ -241,23 +260,6 @@ if __name__ == '__main__':
     TRAIN_TRIPLETS = 'train_triplets.txt'
     TEST_TRIPLETS = 'test_triplets.txt'
 
-    """HYPEPARAMS"""
-    n_epochs = 100
-    batch_size_train = 64 #128 to overfit
-    lambda_l1 = 0.01
-    """HYPEPARAMS"""
-    wnb = 1
-    if wnb == 1:
-        wandb.init(project="IML_cv")
-        model = Net()
-        model.train()
-        model.to(device)
-        config = wandb.config
-        config.learning_rate = 0.01
-        config.batch_size = batch_size_train
-        config.epochs = n_epochs
-        config.weight_decay = 0.001
-
     # # generate embedding for each image in the dataset
     # if(os.path.exists('dataset/embeddings.npy') == False):
     #     generate_embeddings()
@@ -267,13 +269,11 @@ if __name__ == '__main__':
     X_test, _ = get_data(TEST_TRIPLETS, train=False)
 
     # Create data loaders for the training and testing data
-    train_loader = create_loader_from_np(X, y, train = True, batch_size = batch_size_train)
+    train_loader = create_loader_from_np(X, y, train = True, batch_size=64)
     test_loader = create_loader_from_np(X_test, train = False, batch_size=2048, shuffle=False)
 
     # define a model and train it
-    model = train_model(train_loader,n_epochs )
-
-    
+    model = train_model(train_loader)
     
     # test the model on the test data
     test_model(model, test_loader)

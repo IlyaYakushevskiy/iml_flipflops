@@ -1,0 +1,12 @@
+
+Epoch 1: Training Loss: 0.6434, Validation Loss: 0.6567
+Epoch 2: Training Loss: 0.6267, Validation Loss: 0.6506
+Epoch 3: Training Loss: 0.6360, Validation Loss: 0.6503
+Epoch 4: Training Loss: 0.6328, Validation Loss: 0.6475
+Epoch 5: Training Loss: 0.6345, Validation Loss: 0.6345
+Epoch 6: Training Loss: 0.5988, Validation Loss: 0.6207
+Epoch 7: Training Loss: 0.5804, Validation Loss: 0.6115
+Epoch 8: Training Loss: 0.5990, Validation Loss: 0.6117
+Epoch 9: Training Loss: 0.5724, Validation Loss: 0.6154
+Epoch 10: Training Loss: 0.5787, Validation Loss: 0.6043
+Results saved to results.txt

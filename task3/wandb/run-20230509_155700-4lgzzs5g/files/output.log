@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/Users/ilya/Desktop/iml_flipflops/task3/sol_Lauriane.py", line 277, in <module>
+    model = train_model(train_loader,n_epochs,lambda_l1 )
+TypeError: train_model() takes 2 positional arguments but 3 were given

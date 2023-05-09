@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/Users/ilya/Desktop/iml_flipflops/task3/sol_Lauriane.py", line 287, in <module>
+    config.epochs = n_epochs
+NameError: name 'n_epochs' is not defined

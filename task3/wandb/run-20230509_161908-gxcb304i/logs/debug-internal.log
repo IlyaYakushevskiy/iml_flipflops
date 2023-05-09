@@ -1,0 +1,811 @@
+2023-05-09 16:19:08,681 INFO    StreamThr :34524 [internal.py:wandb_internal():86] W&B internal server running at pid: 34524, started at: 2023-05-09 16:19:08.681191
+2023-05-09 16:19:08,682 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: status
+2023-05-09 16:19:08,684 INFO    WriterThread:34524 [datastore.py:open_for_write():85] open: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/run-gxcb304i.wandb
+2023-05-09 16:19:08,685 DEBUG   SenderThread:34524 [sender.py:send():375] send: header
+2023-05-09 16:19:08,702 DEBUG   SenderThread:34524 [sender.py:send():375] send: run
+2023-05-09 16:19:09,109 INFO    SenderThread:34524 [dir_watcher.py:__init__():219] watching files in: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files
+2023-05-09 16:19:09,109 INFO    SenderThread:34524 [sender.py:_start_run_threads():1124] run started: gxcb304i with start time 1683641948.681145
+2023-05-09 16:19:09,109 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:19:09,109 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:19:09,112 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: check_version
+2023-05-09 16:19:09,112 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: check_version
+2023-05-09 16:19:09,212 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: run_start
+2023-05-09 16:19:09,223 DEBUG   HandlerThread:34524 [system_info.py:__init__():31] System info init
+2023-05-09 16:19:09,223 DEBUG   HandlerThread:34524 [system_info.py:__init__():46] System info init done
+2023-05-09 16:19:09,223 INFO    HandlerThread:34524 [system_monitor.py:start():181] Starting system monitor
+2023-05-09 16:19:09,223 INFO    SystemMonitor:34524 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-05-09 16:19:09,223 INFO    HandlerThread:34524 [system_monitor.py:probe():201] Collecting system info
+2023-05-09 16:19:09,224 INFO    SystemMonitor:34524 [interfaces.py:start():190] Started cpu monitoring
+2023-05-09 16:19:09,224 DEBUG   HandlerThread:34524 [system_info.py:probe():195] Probing system
+2023-05-09 16:19:09,224 INFO    SystemMonitor:34524 [interfaces.py:start():190] Started disk monitoring
+2023-05-09 16:19:09,226 INFO    SystemMonitor:34524 [interfaces.py:start():190] Started gpuapple monitoring
+2023-05-09 16:19:09,228 INFO    SystemMonitor:34524 [interfaces.py:start():190] Started memory monitoring
+2023-05-09 16:19:09,230 INFO    SystemMonitor:34524 [interfaces.py:start():190] Started network monitoring
+2023-05-09 16:19:09,235 DEBUG   HandlerThread:34524 [system_info.py:_probe_git():180] Probing git
+2023-05-09 16:19:09,257 DEBUG   HandlerThread:34524 [system_info.py:_probe_git():188] Probing git done
+2023-05-09 16:19:09,257 DEBUG   HandlerThread:34524 [system_info.py:probe():240] Probing system done
+2023-05-09 16:19:09,257 DEBUG   HandlerThread:34524 [system_monitor.py:probe():210] {'os': 'macOS-13.3.1-arm64-arm-64bit', 'python': '3.10.10', 'heartbeatAt': '2023-05-09T14:19:09.224997', 'startedAt': '2023-05-09T14:19:08.668978', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/Users/ilya/Desktop/iml_flipflops/task3/sol_Lauriane.py', 'codePath': 'task3/sol_Lauriane.py', 'git': {'remote': 'https://github.com/IlyaYakushevskiy/iml_flipflops', 'commit': 'b54e5d5cc126f8ba2701bc9f4bbf8169a878d240'}, 'email': 'ilyayakushevskiy3@gmail.com', 'root': '/Users/ilya/Desktop/iml_flipflops', 'host': 'student-net-etx-2055.intern.ethz.ch', 'username': 'ilya', 'executable': '/opt/homebrew/Caskroom/miniforge/base/envs/ml_cv/bin/python', 'cpu_count': 10, 'cpu_count_logical': 10, 'disk': {'total': 460.4317207336426, 'used': 8.45181655883789}, 'gpuapple': {'type': 'arm', 'vendor': 'Apple'}, 'memory': {'total': 16.0}}
+2023-05-09 16:19:09,258 INFO    HandlerThread:34524 [system_monitor.py:probe():211] Finished collecting system info
+2023-05-09 16:19:09,258 INFO    HandlerThread:34524 [system_monitor.py:probe():214] Publishing system info
+2023-05-09 16:19:09,258 DEBUG   HandlerThread:34524 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-05-09 16:19:09,258 DEBUG   HandlerThread:34524 [system_info.py:_save_pip():67] Saving pip packages done
+2023-05-09 16:19:09,258 DEBUG   HandlerThread:34524 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-05-09 16:19:10,115 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:19:10,115 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/requirements.txt
+2023-05-09 16:19:10,115 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/conda-environment.yaml
+2023-05-09 16:19:10,396 DEBUG   HandlerThread:34524 [system_info.py:_save_conda():86] Saving conda packages done
+2023-05-09 16:19:10,397 INFO    HandlerThread:34524 [system_monitor.py:probe():216] Finished publishing system info
+2023-05-09 16:19:10,399 DEBUG   SenderThread:34524 [sender.py:send():375] send: files
+2023-05-09 16:19:10,399 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2023-05-09 16:19:10,402 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-09 16:19:10,402 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: stop_status
+2023-05-09 16:19:10,574 DEBUG   SenderThread:34524 [sender.py:send():375] send: telemetry
+2023-05-09 16:19:10,574 DEBUG   SenderThread:34524 [sender.py:send():375] send: telemetry
+2023-05-09 16:19:10,574 DEBUG   SenderThread:34524 [sender.py:send():375] send: config
+2023-05-09 16:19:10,574 DEBUG   SenderThread:34524 [sender.py:send():375] send: config
+2023-05-09 16:19:10,574 DEBUG   SenderThread:34524 [sender.py:send():375] send: config
+2023-05-09 16:19:10,574 DEBUG   SenderThread:34524 [sender.py:send():375] send: config
+2023-05-09 16:19:10,933 INFO    wandb-upload_0:34524 [upload_job.py:push():137] Uploaded file /var/folders/tr/dw6tlx9j7hl8mjvby8t50bgh0000gn/T/tmpfyhbb18xwandb/56id1n5u-wandb-metadata.json
+2023-05-09 16:19:11,119 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/conda-environment.yaml
+2023-05-09 16:19:11,119 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-metadata.json
+2023-05-09 16:19:14,593 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 16:19:19,607 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 16:19:21,344 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:19:21,345 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:19:21,345 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:19:21,346 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:19:22,166 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:19:22,166 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:19:24,177 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:19:25,363 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 16:19:25,407 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-09 16:19:25,408 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: stop_status
+2023-05-09 16:19:25,963 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:19:25,963 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:19:25,964 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:19:25,964 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:19:26,187 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:19:28,196 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:19:30,626 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:19:30,627 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 16:19:30,627 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:19:30,627 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:19:30,627 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:19:31,212 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:19:32,218 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:19:35,179 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:19:35,179 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:19:35,180 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:19:35,180 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:19:35,233 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:19:36,185 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 16:19:38,247 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:19:39,720 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:19:39,720 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:19:39,721 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:19:39,721 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:19:40,258 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:19:40,412 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-09 16:19:40,412 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: stop_status
+2023-05-09 16:19:41,586 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 16:19:42,264 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/config.yaml
+2023-05-09 16:19:42,264 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:19:44,384 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:19:44,384 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:19:44,384 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:19:44,385 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:19:45,280 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:19:46,286 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:19:47,400 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 16:19:49,102 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:19:49,102 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:19:49,102 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:19:49,103 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:19:49,300 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:19:52,316 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:19:53,119 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 16:19:54,050 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:19:54,050 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:19:54,050 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:19:54,051 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:19:54,325 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:19:55,413 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-09 16:19:55,414 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: stop_status
+2023-05-09 16:19:56,334 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:19:58,573 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 16:19:59,338 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:19:59,339 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:19:59,339 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:19:59,339 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:19:59,344 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:20:02,352 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:20:04,016 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:20:04,017 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 16:20:04,017 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:20:04,017 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:20:04,017 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:20:04,363 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:20:06,373 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:20:08,714 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:20:08,714 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:20:08,715 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:20:08,715 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:20:09,233 DEBUG   SystemMonitor:34524 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-05-09 16:20:09,234 DEBUG   SenderThread:34524 [sender.py:send():375] send: telemetry
+2023-05-09 16:20:09,234 DEBUG   SenderThread:34524 [sender.py:send():375] send: stats
+2023-05-09 16:20:09,234 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 16:20:09,389 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:20:10,395 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:20:10,417 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-09 16:20:10,418 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: stop_status
+2023-05-09 16:20:13,389 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:20:13,389 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:20:13,389 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:20:13,390 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:20:13,408 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:20:14,397 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 16:20:15,415 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/config.yaml
+2023-05-09 16:20:16,420 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:20:19,159 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:20:19,160 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:20:19,161 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:20:19,162 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:20:19,433 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:20:20,167 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 16:20:20,439 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:20:24,823 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:20:24,824 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:20:24,824 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:20:24,824 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:20:25,415 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 16:20:25,422 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-09 16:20:25,423 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: stop_status
+2023-05-09 16:20:25,462 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:20:26,466 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:20:29,654 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:20:29,654 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:20:29,654 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:20:29,656 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:20:30,484 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:20:30,661 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 16:20:32,491 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:20:34,126 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:20:34,127 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:20:34,127 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:20:34,127 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:20:34,502 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:20:36,137 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 16:20:36,512 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:20:38,548 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:20:38,549 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:20:38,549 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:20:38,549 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:20:39,239 DEBUG   SenderThread:34524 [sender.py:send():375] send: stats
+2023-05-09 16:20:39,528 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:20:39,528 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:20:40,426 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-09 16:20:40,427 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: stop_status
+2023-05-09 16:20:41,579 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 16:20:42,956 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:20:42,957 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:20:42,957 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:20:42,958 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:20:43,545 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:20:43,545 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:20:46,978 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 16:20:47,489 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:20:47,490 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:20:47,490 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:20:47,490 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:20:47,567 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:20:49,577 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:20:52,060 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 16:20:52,060 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:20:52,061 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:20:52,061 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:20:52,061 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:20:52,589 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:20:53,594 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:20:55,431 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-09 16:20:55,432 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: stop_status
+2023-05-09 16:20:56,872 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:20:56,873 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:20:56,873 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:20:56,873 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:20:57,612 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:20:57,614 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:20:57,877 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 16:21:02,178 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:21:02,180 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:21:02,180 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:21:02,181 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:21:02,633 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:21:03,186 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 16:21:03,638 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:21:07,717 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:21:07,717 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:21:07,717 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:21:07,718 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:21:08,657 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:21:08,723 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 16:21:09,240 DEBUG   SenderThread:34524 [sender.py:send():375] send: stats
+2023-05-09 16:21:09,662 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:21:10,436 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-09 16:21:10,437 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: stop_status
+2023-05-09 16:21:12,134 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:21:12,135 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:21:12,135 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:21:12,135 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:21:12,678 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:21:13,683 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:21:14,144 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 16:21:16,615 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:21:16,616 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:21:16,616 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:21:16,616 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:21:16,696 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:21:17,696 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:21:19,627 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 16:21:20,986 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:21:20,987 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:21:20,988 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:21:20,988 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:21:21,718 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:21:21,718 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:21:25,008 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 16:21:25,441 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-09 16:21:25,442 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: stop_status
+2023-05-09 16:21:26,495 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:21:26,496 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:21:26,496 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:21:26,497 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:21:26,737 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:21:27,741 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:21:30,515 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 16:21:31,826 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:21:31,826 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:21:31,826 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:21:31,827 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:21:32,760 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:21:33,763 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:21:35,852 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 16:21:37,990 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:21:37,991 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:21:37,991 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:21:37,992 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:21:38,789 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:21:39,246 DEBUG   SenderThread:34524 [sender.py:send():375] send: stats
+2023-05-09 16:21:39,794 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:21:40,446 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-09 16:21:40,446 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: stop_status
+2023-05-09 16:21:41,594 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 16:21:42,551 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:21:42,551 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:21:42,551 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:21:42,552 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:21:42,810 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:21:43,815 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:21:46,974 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:21:46,974 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 16:21:46,975 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:21:46,975 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:21:46,975 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:21:47,837 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:21:47,837 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:21:51,390 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:21:51,391 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:21:51,391 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:21:51,392 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:21:51,856 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:21:51,856 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:21:52,397 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 16:21:55,451 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-09 16:21:55,453 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: stop_status
+2023-05-09 16:21:56,170 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:21:56,171 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:21:56,171 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:21:56,172 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:21:56,878 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:21:57,883 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:21:58,181 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 16:22:00,836 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:22:00,837 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:22:00,837 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:22:00,837 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:22:00,899 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:22:01,905 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:22:03,852 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 16:22:06,591 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:22:06,592 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:22:06,592 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:22:06,592 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:22:06,930 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:22:07,935 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:22:09,251 DEBUG   SenderThread:34524 [sender.py:send():375] send: stats
+2023-05-09 16:22:09,252 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 16:22:10,454 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-09 16:22:10,455 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: stop_status
+2023-05-09 16:22:11,349 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:22:11,349 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:22:11,350 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:22:11,350 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:22:11,956 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:22:11,956 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:22:14,365 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 16:22:16,152 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:22:16,152 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:22:16,153 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:22:16,153 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:22:16,982 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:22:17,987 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:22:20,170 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 16:22:20,794 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:22:20,795 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:22:20,795 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:22:20,795 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:22:20,998 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:22:22,003 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:22:25,362 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:22:25,362 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 16:22:25,363 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:22:25,363 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:22:25,363 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:22:25,458 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-09 16:22:25,458 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: stop_status
+2023-05-09 16:22:26,021 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:22:26,022 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:22:30,004 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:22:30,006 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:22:30,006 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:22:30,006 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:22:30,043 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:22:31,012 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 16:22:32,059 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:22:36,002 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:22:36,004 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:22:36,004 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:22:36,004 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:22:36,071 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:22:37,010 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 16:22:38,078 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:22:39,257 DEBUG   SenderThread:34524 [sender.py:send():375] send: stats
+2023-05-09 16:22:40,459 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-09 16:22:40,459 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: stop_status
+2023-05-09 16:22:40,787 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:22:40,788 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:22:40,788 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:22:40,788 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:22:41,094 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:22:42,100 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:22:42,794 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 16:22:45,525 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:22:45,526 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:22:45,526 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:22:45,527 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:22:46,117 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:22:46,117 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:22:48,544 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 16:22:50,767 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:22:50,768 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:22:50,768 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:22:50,768 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:22:51,138 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:22:52,143 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:22:53,783 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 16:22:55,463 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-09 16:22:55,463 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: stop_status
+2023-05-09 16:22:55,936 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:22:55,936 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:22:55,937 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:22:55,937 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:22:56,159 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:22:58,166 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:22:58,951 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 16:23:01,454 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:23:01,456 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:23:01,456 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:23:01,457 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:23:02,182 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:23:02,182 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:23:04,472 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 16:23:06,272 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:23:06,272 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:23:06,272 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:23:06,273 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:23:07,200 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:23:08,205 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:23:09,262 DEBUG   SenderThread:34524 [sender.py:send():375] send: stats
+2023-05-09 16:23:10,267 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 16:23:10,468 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-09 16:23:10,468 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: stop_status
+2023-05-09 16:23:10,993 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:23:10,994 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:23:10,994 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:23:10,994 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:23:11,216 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:23:12,221 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:23:15,405 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:23:15,406 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 16:23:15,406 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:23:15,406 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:23:15,406 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:23:16,243 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:23:16,243 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:23:19,953 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:23:19,954 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:23:19,954 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:23:19,954 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:23:20,263 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:23:20,957 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 16:23:22,274 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:23:24,835 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:23:24,836 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:23:24,837 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:23:24,837 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:23:25,286 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:23:25,472 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-09 16:23:25,472 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: stop_status
+2023-05-09 16:23:26,291 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:23:26,638 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 16:23:29,553 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:23:29,554 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:23:29,554 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:23:29,555 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:23:30,313 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:23:32,323 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:23:32,569 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 16:23:34,328 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:23:34,328 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:23:34,328 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:23:34,328 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:23:34,333 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:23:36,340 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:23:38,345 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 16:23:39,268 DEBUG   SenderThread:34524 [sender.py:send():375] send: stats
+2023-05-09 16:23:39,499 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:23:39,499 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:23:39,499 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:23:39,500 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:23:40,349 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:23:40,349 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:23:40,472 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-09 16:23:40,473 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: stop_status
+2023-05-09 16:23:43,631 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 16:23:45,604 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:23:45,604 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:23:45,605 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:23:45,606 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:23:46,368 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:23:46,368 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:23:49,620 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 16:23:50,607 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:23:50,608 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:23:50,608 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:23:50,608 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:23:51,394 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:23:52,401 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:23:54,629 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 16:23:55,474 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-09 16:23:55,475 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: stop_status
+2023-05-09 16:23:57,295 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:23:57,296 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:23:57,297 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:23:57,299 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:23:57,422 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:23:58,428 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:24:00,312 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 16:24:02,934 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:24:02,936 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:24:02,936 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:24:02,936 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:24:03,454 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:24:04,455 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:24:05,951 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 16:24:07,412 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:24:07,413 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:24:07,413 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:24:07,414 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:24:07,471 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:24:08,476 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:24:09,274 DEBUG   SenderThread:34524 [sender.py:send():375] send: stats
+2023-05-09 16:24:10,478 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-09 16:24:10,478 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: stop_status
+2023-05-09 16:24:11,631 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 16:24:11,830 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:24:11,831 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:24:11,831 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:24:11,831 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:24:12,495 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:24:14,501 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:24:16,851 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 16:24:17,020 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:24:17,021 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:24:17,021 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:24:17,021 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:24:17,521 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:24:18,526 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:24:22,035 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 16:24:23,589 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:24:23,590 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:24:23,591 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:24:23,591 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:24:24,547 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:24:24,547 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:24:25,483 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-09 16:24:25,484 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: stop_status
+2023-05-09 16:24:27,741 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 16:24:28,880 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:24:28,880 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:24:28,880 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:24:28,880 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:24:29,574 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:24:30,579 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:24:32,900 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 16:24:33,719 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:24:33,720 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:24:33,720 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:24:33,720 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:24:34,601 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:24:34,601 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:24:38,240 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:24:38,241 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:24:38,241 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 16:24:38,241 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:24:38,242 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:24:38,618 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:24:39,279 DEBUG   SenderThread:34524 [sender.py:send():375] send: stats
+2023-05-09 16:24:40,488 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-09 16:24:40,489 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: stop_status
+2023-05-09 16:24:40,628 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:24:42,735 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:24:42,736 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:24:42,736 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:24:42,736 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:24:43,644 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:24:43,741 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 16:24:44,648 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:24:47,303 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:24:47,303 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:24:47,303 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:24:47,304 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:24:47,662 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:24:48,667 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:24:49,314 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 16:24:51,915 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:24:51,916 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:24:51,916 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:24:51,916 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:24:52,688 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:24:54,699 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:24:54,931 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 16:24:55,493 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-09 16:24:55,493 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: stop_status
+2023-05-09 16:24:56,355 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:24:56,355 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:24:56,355 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:24:56,356 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:24:56,709 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:24:58,720 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:25:00,376 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 16:25:00,781 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:25:00,781 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:25:00,781 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:25:00,782 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:25:01,734 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:25:02,739 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:25:05,248 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:25:05,248 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:25:05,248 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:25:05,249 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:25:05,755 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:25:06,253 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 16:25:06,760 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:25:09,285 DEBUG   SenderThread:34524 [sender.py:send():375] send: stats
+2023-05-09 16:25:09,697 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:25:09,697 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:25:09,697 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:25:09,698 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:25:09,773 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:25:10,497 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-09 16:25:10,498 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: stop_status
+2023-05-09 16:25:10,778 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:25:11,652 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 16:25:14,295 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:25:14,295 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:25:14,295 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:25:14,296 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:25:14,799 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:25:16,810 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:25:17,308 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 16:25:19,283 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:25:19,285 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:25:19,285 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:25:19,286 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:25:19,820 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:25:20,822 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:25:23,297 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 16:25:25,501 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-09 16:25:25,502 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: stop_status
+2023-05-09 16:25:26,241 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:25:26,242 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:25:26,242 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:25:26,243 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:25:26,846 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:25:28,847 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:25:29,251 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 16:25:33,537 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:25:33,537 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:25:33,538 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:25:33,538 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:25:33,869 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:25:34,543 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 16:25:34,873 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:25:38,301 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:25:38,301 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:25:38,301 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:25:38,302 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:25:38,892 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:25:39,289 DEBUG   SenderThread:34524 [sender.py:send():375] send: stats
+2023-05-09 16:25:40,294 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 16:25:40,506 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-09 16:25:40,506 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: stop_status
+2023-05-09 16:25:40,901 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:25:43,870 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:25:43,871 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:25:43,871 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:25:43,871 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:25:43,912 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:25:44,918 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:25:45,882 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 16:25:49,674 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:25:49,675 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:25:49,675 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:25:49,675 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:25:49,942 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:25:50,947 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:25:51,686 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 16:25:54,586 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:25:54,587 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:25:54,587 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:25:54,587 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:25:54,963 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:25:55,508 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-09 16:25:55,508 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: stop_status
+2023-05-09 16:25:56,972 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:25:57,685 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 16:26:00,389 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-09 16:26:00,393 DEBUG   SenderThread:34524 [sender.py:send():375] send: history
+2023-05-09 16:26:00,394 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: summary_record
+2023-05-09 16:26:00,395 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:26:00,988 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:26:02,997 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:26:03,411 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 16:26:05,721 DEBUG   SenderThread:34524 [sender.py:send():375] send: exit
+2023-05-09 16:26:05,721 INFO    SenderThread:34524 [sender.py:send_exit():598] handling exit code: 255
+2023-05-09 16:26:05,721 INFO    SenderThread:34524 [sender.py:send_exit():600] handling runtime: 416
+2023-05-09 16:26:05,722 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:26:05,722 INFO    SenderThread:34524 [sender.py:send_exit():606] send defer
+2023-05-09 16:26:05,722 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: defer
+2023-05-09 16:26:05,722 INFO    HandlerThread:34524 [handler.py:handle_request_defer():170] handle defer: 0
+2023-05-09 16:26:05,722 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: defer
+2023-05-09 16:26:05,722 INFO    SenderThread:34524 [sender.py:send_request_defer():622] handle sender defer: 0
+2023-05-09 16:26:05,722 INFO    SenderThread:34524 [sender.py:transition_state():626] send defer: 1
+2023-05-09 16:26:05,722 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: defer
+2023-05-09 16:26:05,722 INFO    HandlerThread:34524 [handler.py:handle_request_defer():170] handle defer: 1
+2023-05-09 16:26:05,722 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: defer
+2023-05-09 16:26:05,722 INFO    SenderThread:34524 [sender.py:send_request_defer():622] handle sender defer: 1
+2023-05-09 16:26:05,722 INFO    SenderThread:34524 [sender.py:transition_state():626] send defer: 2
+2023-05-09 16:26:05,722 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: defer
+2023-05-09 16:26:05,722 INFO    HandlerThread:34524 [handler.py:handle_request_defer():170] handle defer: 2
+2023-05-09 16:26:05,722 INFO    HandlerThread:34524 [system_monitor.py:finish():190] Stopping system monitor
+2023-05-09 16:26:05,722 DEBUG   SystemMonitor:34524 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-05-09 16:26:05,723 INFO    HandlerThread:34524 [interfaces.py:finish():202] Joined cpu monitor
+2023-05-09 16:26:05,723 DEBUG   SystemMonitor:34524 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-05-09 16:26:05,723 INFO    HandlerThread:34524 [interfaces.py:finish():202] Joined disk monitor
+2023-05-09 16:26:05,723 INFO    HandlerThread:34524 [interfaces.py:finish():202] Joined gpuapple monitor
+2023-05-09 16:26:05,723 INFO    HandlerThread:34524 [interfaces.py:finish():202] Joined memory monitor
+2023-05-09 16:26:05,723 INFO    HandlerThread:34524 [interfaces.py:finish():202] Joined network monitor
+2023-05-09 16:26:05,723 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: defer
+2023-05-09 16:26:05,723 INFO    SenderThread:34524 [sender.py:send_request_defer():622] handle sender defer: 2
+2023-05-09 16:26:05,723 INFO    SenderThread:34524 [sender.py:transition_state():626] send defer: 3
+2023-05-09 16:26:05,723 DEBUG   SenderThread:34524 [sender.py:send():375] send: stats
+2023-05-09 16:26:05,723 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: defer
+2023-05-09 16:26:05,723 INFO    HandlerThread:34524 [handler.py:handle_request_defer():170] handle defer: 3
+2023-05-09 16:26:05,724 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: defer
+2023-05-09 16:26:05,724 INFO    SenderThread:34524 [sender.py:send_request_defer():622] handle sender defer: 3
+2023-05-09 16:26:05,724 INFO    SenderThread:34524 [sender.py:transition_state():626] send defer: 4
+2023-05-09 16:26:05,724 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: defer
+2023-05-09 16:26:05,724 INFO    HandlerThread:34524 [handler.py:handle_request_defer():170] handle defer: 4
+2023-05-09 16:26:05,724 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: defer
+2023-05-09 16:26:05,724 INFO    SenderThread:34524 [sender.py:send_request_defer():622] handle sender defer: 4
+2023-05-09 16:26:05,724 INFO    SenderThread:34524 [sender.py:transition_state():626] send defer: 5
+2023-05-09 16:26:05,724 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: defer
+2023-05-09 16:26:05,724 INFO    HandlerThread:34524 [handler.py:handle_request_defer():170] handle defer: 5
+2023-05-09 16:26:05,724 DEBUG   SenderThread:34524 [sender.py:send():375] send: summary
+2023-05-09 16:26:05,724 INFO    SenderThread:34524 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-09 16:26:05,724 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: defer
+2023-05-09 16:26:05,724 INFO    SenderThread:34524 [sender.py:send_request_defer():622] handle sender defer: 5
+2023-05-09 16:26:05,724 INFO    SenderThread:34524 [sender.py:transition_state():626] send defer: 6
+2023-05-09 16:26:05,724 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: defer
+2023-05-09 16:26:05,724 INFO    HandlerThread:34524 [handler.py:handle_request_defer():170] handle defer: 6
+2023-05-09 16:26:05,724 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: defer
+2023-05-09 16:26:05,724 INFO    SenderThread:34524 [sender.py:send_request_defer():622] handle sender defer: 6
+2023-05-09 16:26:05,724 INFO    SenderThread:34524 [sender.py:transition_state():626] send defer: 7
+2023-05-09 16:26:05,725 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: status_report
+2023-05-09 16:26:05,725 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: defer
+2023-05-09 16:26:05,725 INFO    HandlerThread:34524 [handler.py:handle_request_defer():170] handle defer: 7
+2023-05-09 16:26:05,725 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: defer
+2023-05-09 16:26:05,725 INFO    SenderThread:34524 [sender.py:send_request_defer():622] handle sender defer: 7
+2023-05-09 16:26:06,008 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:26:06,722 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-09 16:26:07,735 INFO    SenderThread:34524 [sender.py:transition_state():626] send defer: 8
+2023-05-09 16:26:07,735 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: poll_exit
+2023-05-09 16:26:07,735 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: defer
+2023-05-09 16:26:07,735 INFO    HandlerThread:34524 [handler.py:handle_request_defer():170] handle defer: 8
+2023-05-09 16:26:07,735 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: defer
+2023-05-09 16:26:07,735 INFO    SenderThread:34524 [sender.py:send_request_defer():622] handle sender defer: 8
+2023-05-09 16:26:07,754 INFO    SenderThread:34524 [sender.py:transition_state():626] send defer: 9
+2023-05-09 16:26:07,754 DEBUG   SenderThread:34524 [sender.py:send():375] send: artifact
+2023-05-09 16:26:07,758 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: defer
+2023-05-09 16:26:07,758 INFO    HandlerThread:34524 [handler.py:handle_request_defer():170] handle defer: 9
+2023-05-09 16:26:08,019 INFO    Thread-12 :34524 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:26:08,754 INFO    SenderThread:34524 [sender.py:send_artifact():1474] sent artifact job-https___github.com_IlyaYakushevskiy_iml_flipflops_task3_sol_Lauriane.py - {'id': 'QXJ0aWZhY3Q6NDQ4MDg0OTQ4', 'digest': '06f36154a907e3480defb0a8cc21f32a', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'job-https___github.com_IlyaYakushevskiy_iml_flipflops_task3_sol_Lauriane.py', 'alias': 'latest'}, {'artifactCollectionName': 'job-https___github.com_IlyaYakushevskiy_iml_flipflops_task3_sol_Lauriane.py', 'alias': 'v2'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjY3OTAxNjYz', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NDQ4MDg0OTQ4', 'versionIndex': 2}}, 'version': 'v2'}
+2023-05-09 16:26:08,754 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: defer
+2023-05-09 16:26:08,754 INFO    SenderThread:34524 [sender.py:send_request_defer():622] handle sender defer: 9
+2023-05-09 16:26:08,754 INFO    SenderThread:34524 [dir_watcher.py:finish():365] shutting down directory watcher
+2023-05-09 16:26:09,020 INFO    SenderThread:34524 [dir_watcher.py:finish():395] scan: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files
+2023-05-09 16:26:09,021 INFO    SenderThread:34524 [dir_watcher.py:finish():409] scan save: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/requirements.txt requirements.txt
+2023-05-09 16:26:09,021 INFO    SenderThread:34524 [dir_watcher.py:finish():409] scan save: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log output.log
+2023-05-09 16:26:09,021 INFO    SenderThread:34524 [dir_watcher.py:finish():409] scan save: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/config.yaml config.yaml
+2023-05-09 16:26:09,021 INFO    SenderThread:34524 [dir_watcher.py:finish():409] scan save: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json wandb-summary.json
+2023-05-09 16:26:09,021 INFO    SenderThread:34524 [dir_watcher.py:finish():409] scan save: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/conda-environment.yaml conda-environment.yaml
+2023-05-09 16:26:09,021 INFO    SenderThread:34524 [dir_watcher.py:finish():409] scan save: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-metadata.json wandb-metadata.json
+2023-05-09 16:26:09,021 INFO    SenderThread:34524 [sender.py:transition_state():626] send defer: 10
+2023-05-09 16:26:09,022 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: defer
+2023-05-09 16:26:09,022 INFO    HandlerThread:34524 [handler.py:handle_request_defer():170] handle defer: 10
+2023-05-09 16:26:09,033 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: defer
+2023-05-09 16:26:09,039 INFO    SenderThread:34524 [sender.py:send_request_defer():622] handle sender defer: 10
+2023-05-09 16:26:09,040 INFO    SenderThread:34524 [file_pusher.py:finish():167] shutting down file pusher
+2023-05-09 16:26:09,518 INFO    wandb-upload_1:34524 [upload_job.py:push():137] Uploaded file /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/output.log
+2023-05-09 16:26:09,573 INFO    wandb-upload_4:34524 [upload_job.py:push():137] Uploaded file /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/conda-environment.yaml
+2023-05-09 16:26:09,576 INFO    wandb-upload_0:34524 [upload_job.py:push():137] Uploaded file /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/requirements.txt
+2023-05-09 16:26:09,613 INFO    wandb-upload_3:34524 [upload_job.py:push():137] Uploaded file /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/wandb-summary.json
+2023-05-09 16:26:09,615 INFO    wandb-upload_2:34524 [upload_job.py:push():137] Uploaded file /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/files/config.yaml
+2023-05-09 16:26:09,821 INFO    Thread-11 (_thread_body):34524 [sender.py:transition_state():626] send defer: 11
+2023-05-09 16:26:09,822 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: defer
+2023-05-09 16:26:09,822 INFO    HandlerThread:34524 [handler.py:handle_request_defer():170] handle defer: 11
+2023-05-09 16:26:09,823 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: defer
+2023-05-09 16:26:09,823 INFO    SenderThread:34524 [sender.py:send_request_defer():622] handle sender defer: 11
+2023-05-09 16:26:09,823 INFO    SenderThread:34524 [file_pusher.py:join():172] waiting for file pusher
+2023-05-09 16:26:09,823 INFO    SenderThread:34524 [sender.py:transition_state():626] send defer: 12
+2023-05-09 16:26:09,824 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: defer
+2023-05-09 16:26:09,824 INFO    HandlerThread:34524 [handler.py:handle_request_defer():170] handle defer: 12
+2023-05-09 16:26:09,824 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: defer
+2023-05-09 16:26:09,824 INFO    SenderThread:34524 [sender.py:send_request_defer():622] handle sender defer: 12
+2023-05-09 16:26:10,040 INFO    SenderThread:34524 [sender.py:transition_state():626] send defer: 13
+2023-05-09 16:26:10,040 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: defer
+2023-05-09 16:26:10,040 INFO    HandlerThread:34524 [handler.py:handle_request_defer():170] handle defer: 13
+2023-05-09 16:26:10,041 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: defer
+2023-05-09 16:26:10,041 INFO    SenderThread:34524 [sender.py:send_request_defer():622] handle sender defer: 13
+2023-05-09 16:26:10,041 INFO    SenderThread:34524 [sender.py:transition_state():626] send defer: 14
+2023-05-09 16:26:10,041 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: defer
+2023-05-09 16:26:10,041 INFO    HandlerThread:34524 [handler.py:handle_request_defer():170] handle defer: 14
+2023-05-09 16:26:10,045 DEBUG   SenderThread:34524 [sender.py:send():375] send: final
+2023-05-09 16:26:10,046 DEBUG   SenderThread:34524 [sender.py:send():375] send: footer
+2023-05-09 16:26:10,046 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: defer
+2023-05-09 16:26:10,046 INFO    SenderThread:34524 [sender.py:send_request_defer():622] handle sender defer: 14
+2023-05-09 16:26:10,049 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-09 16:26:10,049 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: server_info
+2023-05-09 16:26:10,049 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: get_summary
+2023-05-09 16:26:10,049 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: sampled_history
+2023-05-09 16:26:10,052 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: poll_exit
+2023-05-09 16:26:10,052 DEBUG   SenderThread:34524 [sender.py:send_request():402] send_request: server_info
+2023-05-09 16:26:10,205 INFO    MainThread:34524 [wandb_run.py:_footer_history_summary_info():3469] rendering history
+2023-05-09 16:26:10,206 INFO    MainThread:34524 [wandb_run.py:_footer_history_summary_info():3501] rendering summary
+2023-05-09 16:26:10,206 INFO    MainThread:34524 [wandb_run.py:_footer_sync_info():3428] logging synced files
+2023-05-09 16:26:10,207 DEBUG   HandlerThread:34524 [handler.py:handle_request():144] handle_request: shutdown
+2023-05-09 16:26:10,207 INFO    HandlerThread:34524 [handler.py:finish():845] shutting down handler
+2023-05-09 16:26:11,055 INFO    WriterThread:34524 [datastore.py:close():298] close: /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_161908-gxcb304i/run-gxcb304i.wandb
+2023-05-09 16:26:11,205 INFO    SenderThread:34524 [sender.py:finish():1550] shutting down sender
+2023-05-09 16:26:11,206 INFO    SenderThread:34524 [file_pusher.py:finish():167] shutting down file pusher
+2023-05-09 16:26:11,206 INFO    SenderThread:34524 [file_pusher.py:join():172] waiting for file pusher

@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/Users/ilya/Desktop/iml_flipflops/task3/sol_Lauriane.py", line 295, in <module>
+    model = train_model(train_loader,n_epochs,lambda_l1 )
+  File "/Users/ilya/Desktop/iml_flipflops/task3/sol_Lauriane.py", line 224, in train_model
+    print(f"Epoch {epoch+1}: Training Loss: {loss:.4f}, Validation Loss: {valid_loss:.4f}")
+NameError: name 'epoch' is not defined

@@ -1,0 +1,34 @@
+2023-05-09 15:53:09,408 INFO    MainThread:30506 [wandb_setup.py:_flush():76] Current SDK version is 0.15.2
+2023-05-09 15:53:09,408 INFO    MainThread:30506 [wandb_setup.py:_flush():76] Configure stats pid to 30506
+2023-05-09 15:53:09,408 INFO    MainThread:30506 [wandb_setup.py:_flush():76] Loading settings from /Users/ilya/.config/wandb/settings
+2023-05-09 15:53:09,408 INFO    MainThread:30506 [wandb_setup.py:_flush():76] Loading settings from /Users/ilya/Desktop/iml_flipflops/task3/wandb/settings
+2023-05-09 15:53:09,408 INFO    MainThread:30506 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-05-09 15:53:09,408 INFO    MainThread:30506 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-05-09 15:53:09,408 INFO    MainThread:30506 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'task3/sol_Lauriane.py', 'program': '/Users/ilya/Desktop/iml_flipflops/task3/sol_Lauriane.py'}
+2023-05-09 15:53:09,409 INFO    MainThread:30506 [wandb_init.py:_log_setup():507] Logging user logs to /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_155309-x6onv9bu/logs/debug.log
+2023-05-09 15:53:09,409 INFO    MainThread:30506 [wandb_init.py:_log_setup():508] Logging internal logs to /Users/ilya/Desktop/iml_flipflops/task3/wandb/run-20230509_155309-x6onv9bu/logs/debug-internal.log
+2023-05-09 15:53:09,409 INFO    MainThread:30506 [wandb_init.py:init():547] calling init triggers
+2023-05-09 15:53:09,409 INFO    MainThread:30506 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {}
+2023-05-09 15:53:09,409 INFO    MainThread:30506 [wandb_init.py:init():596] starting backend
+2023-05-09 15:53:09,409 INFO    MainThread:30506 [wandb_init.py:init():600] setting up manager
+2023-05-09 15:53:09,411 INFO    MainThread:30506 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2023-05-09 15:53:09,415 INFO    MainThread:30506 [wandb_init.py:init():606] backend started and connected
+2023-05-09 15:53:09,417 INFO    MainThread:30506 [wandb_init.py:init():700] updated telemetry
+2023-05-09 15:53:09,437 INFO    MainThread:30506 [wandb_init.py:init():737] communicating run to backend with 60.0 second timeout
+2023-05-09 15:53:09,896 INFO    MainThread:30506 [wandb_run.py:_on_init():2177] communicating current version
+2023-05-09 15:53:10,003 INFO    MainThread:30506 [wandb_run.py:_on_init():2186] got version response 
+2023-05-09 15:53:10,003 INFO    MainThread:30506 [wandb_init.py:init():787] starting run threads in backend
+2023-05-09 15:53:10,986 INFO    MainThread:30506 [wandb_run.py:_console_start():2158] atexit reg
+2023-05-09 15:53:10,986 INFO    MainThread:30506 [wandb_run.py:_redirect():2013] redirect: SettingsConsole.WRAP_RAW
+2023-05-09 15:53:10,986 INFO    MainThread:30506 [wandb_run.py:_redirect():2078] Wrapping output streams.
+2023-05-09 15:53:10,986 INFO    MainThread:30506 [wandb_run.py:_redirect():2103] Redirects installed.
+2023-05-09 15:53:10,986 INFO    MainThread:30506 [wandb_init.py:init():829] run started, returning control to user process
+2023-05-09 15:53:10,988 INFO    MainThread:30506 [wandb_config.py:__setitem__():151] config set learning_rate = 0.01 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x13892b820>>
+2023-05-09 15:53:10,992 INFO    MainThread:30506 [wandb_run.py:_config_callback():1286] config_cb learning_rate 0.01 None
+2023-05-09 15:53:10,992 INFO    MainThread:30506 [wandb_config.py:__setitem__():151] config set batch_size = 128 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x13892b820>>
+2023-05-09 15:53:10,992 INFO    MainThread:30506 [wandb_run.py:_config_callback():1286] config_cb batch_size 128 None
+2023-05-09 15:53:10,992 INFO    MainThread:30506 [wandb_config.py:__setitem__():151] config set epochs = 10 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x13892b820>>
+2023-05-09 15:53:10,992 INFO    MainThread:30506 [wandb_run.py:_config_callback():1286] config_cb epochs 10 None
+2023-05-09 15:53:10,992 INFO    MainThread:30506 [wandb_config.py:__setitem__():151] config set weight_decay = 0.001 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x13892b820>>
+2023-05-09 15:53:10,992 INFO    MainThread:30506 [wandb_run.py:_config_callback():1286] config_cb weight_decay 0.001 None
