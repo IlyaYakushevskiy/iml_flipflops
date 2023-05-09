@@ -1,3 +1,5 @@
+# flake8: noqa
+# fmt: off
 # This serves as a template which will guide you through the implementation of this task.  It is advised
 # to first read the whole template and get a sense of the overall structure of the code before trying to fill in any of the TODO gaps
 # First, we import necessary libraries:
@@ -15,77 +17,13 @@ from torch.utils.data import random_split
 
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
-"""def generate_embeddings():
-    
-    # Transform, resize and normalize the images and then use a pretrained model to extract
-    # the embeddings.
-    
-    # TODO: define a transform to pre-process the images
-    train_transforms = transforms.Compose([transforms.Resize(256),
-                                           transforms.CenterCrop(224),
-                                           transforms.ToTensor(),
-                                           transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]),])
-
-    train_dataset = datasets.ImageFolder(root="dataset", transform=train_transforms)
-    # Hint: adjust batch_size and num_workers to your PC configuration, so that you don't
-    # run out of memory
-    train_loader = DataLoader(dataset=train_dataset,
-                              batch_size=64,
-                              shuffle=False,
-                              pin_memory=True, num_workers=12)
-
-    # TODO: define a model for extraction of the embeddings (Hint: load a pretrained model,
-    #  more info here: https://pytorch.org/vision/stable/models.html)
-
-    model = torch.hub.load("facebookresearch/WSL-Images", "resnext101_32x8d_wsl")
-
-    # model = models.resnet50(pretrained=True)
-    # embedding_layer = model.fc
-    model.eval()
-
-    # model = nn.Module()
-    all_embeddings = []
-    embedding_size = 2048  # Dummy variable, replace with the actual embedding size once you
-    # pick your model
-    num_images = len(train_dataset)
-    embeddings = np.zeros((num_images, embedding_size))
-
-
-
-    # TODO: Use the model to extract the embeddings. Hint: remove the last layers of the
-    # model to access the embeddings the model generates.
-
-    # with torch.no_grad():
-    #     for batch in train_loader:
-    #         images, _ = batch
-    #         features = model(images)
-    #         embeddings = embedding_layer(features)
-    #         all_embeddings.append(embeddings)
-    # all_embeddings = np.array(all_embeddings)
-    # print("shape: ", all_embeddings.shape)
-
-    # def slice_model(original_model, from_layer=None, to_layer=None):
-    #     return nn.Sequential(*list(original_model.children())[from_layer:to_layer])
-
-    sliced_model = nn.Sequential(*list(model.children())[:-1]).to(device)
-    #model_conv_features = slice_model(model, to_layer=-1).to(device)
-    with torch.no_grad():
-        for batch in train_loader:
-            images, _ = batch
-            embeddings = sliced_model(images).flatten(start_dim=1)
-            all_embeddings.append(embeddings)
-    all_embeddings = np.array(embeddings)
-    print("shape", all_embeddings.shape)
-    
-    np.save("/content/iml_flipflops/task3/dataset/embeddings.npy", all_embeddings)"""
-
     
 def generate_embeddings():
     """
     Transform, resize and normalize the images and then use a pretrained model to extract 
     the embeddings.
     """
-    # Define a transform to pre-process the images
+    # TODO: define a transform to pre-process the images
     train_transforms = transforms.Compose([
         transforms.Resize(256),
         transforms.CenterCrop(224),
@@ -100,8 +38,12 @@ def generate_embeddings():
                               shuffle=False,
                               pin_memory=True, num_workers=16)
 
-    # Define a model for extraction of the embeddings
+    # TODO: define a model for extraction of the embeddings (Hint: load a pretrained model,
+    #  more info here: https://pytorch.org/vision/stable/models.html)
     model = torch.hub.load('pytorch/vision', 'resnet50', pretrained=True)
+
+    # TODO: Use the model to extract the embeddings. Hint: remove the last layers of the
+    # model to access the embeddings the model generates.
     model = nn.Sequential(*list(model.children())[:-1])  # Remove the last layer
     model.to(device)
     model.eval()
@@ -116,8 +58,6 @@ def generate_embeddings():
 
     embeddings = np.vstack(embeddings)
     np.save('dataset/embeddings.npy', embeddings)
-    
-    
 
 
 def get_data(file, train=True):
@@ -140,6 +80,7 @@ def get_data(file, train=True):
                                          transform=None)
     filenames = [s[0].split('/')[-1].replace('.jpg', '') for s in train_dataset.samples]
     embeddings = np.load('dataset/embeddings.npy')
+
     # TODO: Normalize the embeddings across the dataset
     embeddings = embeddings / np.linalg.norm(embeddings, axis=1, keepdims=True)
 
@@ -159,8 +100,9 @@ def get_data(file, train=True):
             y.append(0)
     X = np.vstack(X)
     y = np.hstack(y)
-    print(" X , y " , X.shape, y.shape)
+    #print(" X , y " , X.shape, y.shape)
     return X, y
+
 
 # Hint: adjust batch_size and num_workers to your PC configuration, so that you don't run out of memory
 def create_loader_from_np(X, y = None, train = True, batch_size=64, shuffle=True, num_workers = 4):
@@ -183,7 +125,7 @@ def create_loader_from_np(X, y = None, train = True, batch_size=64, shuffle=True
                         pin_memory=True, num_workers=num_workers)
     return loader
 
-# TODO: define a model. Here, the basic structure is defined, but you need to fill in the details
+
 # TODO: define a model. Here, the basic structure is defined, but you need to fill in the details
 class Net(nn.Module):
     """
@@ -196,9 +138,11 @@ class Net(nn.Module):
         """
         super().__init__()
         #self.fc = nn.Linear(3000, 1)
-        self.fc1 = nn.Linear(3*2048, 10)
-        self.fc2 = nn.Linear(10, 10)
-        self.out = nn.Linear(10, 1)
+        self.fc1 = nn.Linear(3*2048, 20)
+        self.fc2 = nn.Linear(20, 20)
+        self.fc3 = nn.Linear(20, 20)
+        self.fc4 = nn.Linear(20, 20)
+        self.out = nn.Linear(20, 1)
 
     def forward(self, x):
         """
@@ -210,10 +154,14 @@ class Net(nn.Module):
         """
         # x = self.fc(x)
         # x = F.relu(x)
-        x = F.relu(self.fc1(x))
-        x = F.relu(self.fc2(x))
+
+        # x = F.relu(self.fc1(x))
+        # x = F.relu(self.fc2(x))
+        x = F.sigmoid(self.fc1(x))
+        x = F.sigmoid(self.fc2(x))
+        x = F.sigmoid(self.fc3(x))
+        x = F.sigmoid(self.fc4(x))
         x = self.out(x)
-        print(x)
         return x
 
 def train_model(train_loader):
@@ -228,8 +176,14 @@ def train_model(train_loader):
     model = Net()
     model.train()
     model.to(device)
-    n_epochs = 20
+    n_epochs = 100
     
+    # TODO: define a loss function, optimizer and proceed with training. Hint: use the part 
+    # of the training data as a validation split. After each epoch, compute the loss on the 
+    # validation split and print it out. This enables you to see how your model is performing 
+    # on the validation data before submitting the results on the server. After choosing the 
+    # best model, train it on the whole training data.
+
     # Split the data into training and validation sets
     train_size = int(0.8 * len(train_loader.dataset))
     valid_size = len(train_loader.dataset) - train_size
@@ -238,8 +192,8 @@ def train_model(train_loader):
     train_loader = DataLoader(train_dataset, batch_size=64, shuffle=True)
     valid_loader = DataLoader(valid_dataset, batch_size=64, shuffle=False)
 
-    loss_function =  nn.BCEWithLogitsLoss()
-
+    # loss_function = nn.CrossEntropyLoss()
+    loss_function = nn.BCEWithLogitsLoss()
     optimizer = torch.optim.Adam(model.parameters(), lr=0.01)
     min_valid_loss = np.inf
 
@@ -249,6 +203,7 @@ def train_model(train_loader):
             X, y = X.to(device), y.to(device)
             optimizer.zero_grad()
             output = model(X)
+            y = y.unsqueeze(1).float()
             loss = loss_function(output, y)
             loss.backward()
             optimizer.step()
@@ -259,6 +214,7 @@ def train_model(train_loader):
             for X, y in valid_loader:
                 X, y = X.to(device), y.to(device)
                 output = model(X)
+                y = y.unsqueeze(1).float()
                 loss = loss_function(output, y)
                 valid_loss += loss.item()
 
@@ -272,25 +228,6 @@ def train_model(train_loader):
     # Load the best model for final use
     model.load_state_dict(torch.load("best_model.pth"))
     return model
-    """for epoch in range(n_epochs):     
-      for idx, [X, y] in enumerate(train_loader):
-      #for batch_idx, batch in train_loader:
-          if idx != 0:
-            optimizer.zero_grad()
-            output = model(X)
-            loss = loss_function(output, y)
-            loss.backward()
-            optimizer.step()
-
-      for idx, [X, y] in enumerate(train_loader):
-          if idx == 0:
-              validation_output = model(X)
-              validation_loss = F.nll_loss(validation_output, y)
-              break
-      print(" Training Loss:" + str(loss))
-      print(" Validation Loss:" + str(validation_loss))
-
-    return model"""
 
 def test_model(model, loader):
     """
@@ -315,7 +252,7 @@ def test_model(model, loader):
             predicted[predicted < 0.5] = 0
             predictions.append(predicted)
         predictions = np.vstack(predictions)
-    np.savetxt("results.txt", predictions, fmt='%i')
+    np.savetxt("results_20nodes_4layers_100epochs.txt", predictions, fmt='%i')
 
 
 # Main function. You don't have to change this
@@ -323,9 +260,9 @@ if __name__ == '__main__':
     TRAIN_TRIPLETS = 'train_triplets.txt'
     TEST_TRIPLETS = 'test_triplets.txt'
 
-    # generate embedding for each image in the dataset
-    if(os.path.exists('dataset/embeddings.npy') == False):
-        generate_embeddings()
+    # # generate embedding for each image in the dataset
+    # if(os.path.exists('dataset/embeddings.npy') == False):
+    #     generate_embeddings()
 
     # # load the training and testing data
     X, y = get_data(TRAIN_TRIPLETS)
